@@ -1,0 +1,33 @@
+.header {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 863px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 19px;
+}
+
+.header__logo {
+    
+}
+
+.header__title {
+    font-size: 74px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+} 
+
+.header__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
